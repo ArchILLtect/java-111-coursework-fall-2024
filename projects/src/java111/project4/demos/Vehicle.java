@@ -4,7 +4,7 @@
  *  @author pwaite
  */
 
- public class Vehicle {
+ public abstract class Vehicle {
     // instance variables/attributes
     private String make;
     private String model;
