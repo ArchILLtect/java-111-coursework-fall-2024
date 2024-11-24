@@ -1,0 +1,64 @@
+
+LAB 4 - PART 2
+
+
+WHO AM I? (page 45)
+-------------------
+
+After each line identify who it is from this list.
+The first one is already done!:
+    -Class
+    -Method
+    -Object
+    -Instance variables.
+
+
+I am compiled from a .java file.
+    -Class
+
+
+My instance variable values can be different from my buddy's values.
+    -Object
+
+
+I behave like a template.
+    -Class
+
+
+I like to do stuff.
+    -Method
+
+
+I can have many methods.
+    -Class
+
+
+I represent 'state'.
+    -Instance variables
+
+
+I have behaviors.
+    -Object (Kinda tricky - Behaviors are defined in a class but the object "has" the behavior and will exhibit it)
+
+
+I am located in objects.
+    -Instance Variables
+
+
+I live on the heap.
+    -Object
+
+I am used to create object instances.
+    -Class
+
+
+My state can change.
+    -Instance variables
+
+
+I declare methods.
+    -Class
+
+
+I can change at runtime.
+    -Object

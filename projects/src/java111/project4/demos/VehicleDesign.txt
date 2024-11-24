@@ -1,0 +1,8 @@
+Superclass:
+Vehicle
+
+Subclasses:
+Car*
+Truck
+Airplane*
+Bus

@@ -1,0 +1,31 @@
+
+Application 1:
+a.  The app starts
+      i.    Create a place to hold the entered numbers
+b.  Prompt the user for two numbers until 0 is entered
+      i.    Prompt first number
+      ii.   Prompt for second number
+      iii.  Display the sum, difference, and multiplication and division products
+c.  When 0 is entered End app
+
+Application 2:
+a.  The app starts
+      i.    Create a place to store a number
+      ii.   App creates a random number
+b.  Prompt for a number between 1 and 100 until they get it correct
+      i.    Prompt user for number
+      ii.   If guess is incorrect, tell the user how (too big, too small)
+c.  App ends when correct number id entered
+      i.    Display message that correct number was guessed
+      ii.   Say goodbye
+
+Application 3:
+a.  The app starts
+      i.    Create a place to store an object array
+      ii.   Load a file containing objects with colors and quotes
+b.  Prompt for a color and loop until match
+      i.    Prompt user for color
+      ii.   If input does not match any included colors, tell user to try again and re-prompt
+c.  App ends when a matching color is entered
+      i.    Display the corresponding quote for the entered color
+      ii.   Say goodbye

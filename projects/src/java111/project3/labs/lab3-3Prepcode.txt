@@ -1,0 +1,86 @@
+
+Application 1:
+
+    i.   Calculator
+        a.  Variables
+                int sumTotal = holds the value of the sum of the 2 user inputs.
+                int differenceTotal = holds the value of the difference of the 2 user inputs.
+                int multiplicationProduct = holds the value of the product of the 2 user inputs multiplied.
+                int divisionProduct = holds the value of the product of the 2 user inputs divided.
+        b.  Methods
+                calcSum() - takes userInputs as parameters. Adds the 2 user inputs together.
+                calcDiff() - takes userInputs as parameters. Subtracts the second user input from the first.
+                calcMultiplicationProduct() - takes userInputs as parameters. Multiplies the 2 user inputs together.
+                calcDivisionProduct() - takes userInputs as parameters. Divides the first user input by the second.
+        c.  Outlined Methods
+                int calcSum(a, b) return a + b;
+                int calcDiff(a, b) return a - b;
+                int calcMultiplicationProduct(a, b) return a * b;
+                int calcDivisionProduct(a, b) return a / b;
+
+    ii.  UserInput
+        a.  Variables
+                int userInputOne = holds the value of the first user input.
+                int userInputTwo = holds the value of the second user input.
+                InputHelper inputHelper = holds a reference to the instance of the InputHelper object.
+                Calculator calculator = holds a reference to the instance of the Calculator object.
+        b.  Methods
+                getUserInputs() - prompts the user to input 2 separate numbers and stores them in the corresponding variable.
+                displayResults() - uses the calculator object to call all four of it's methods and display the results.
+        c.  Outlined Methods
+                getUserInputs() - ???
+                displayResults()
+                    IF userInputOne > 0
+                        System.out.println();
+                        System.out.println('First number: ' + userInputOne + '; Second number: ' + userInputTwo);
+                        System.out.println(userInputOne + ' + ' + userInputTwo + ' = ' + calcSum);
+                        System.out.println(userInputOne + ' - ' + userInputTwo + ' = ' + calcDiff);
+                        System.out.println(userInputOne + ' * ' + userInputTwo + ' = ' + calcMultiplicationProduct);
+                        System.out.println(userInputOne + ' / ' + userInputTwo + ' = ' + calcDivisionProduct);
+                    ELSE
+                        System.out.println('Goodbye');
+
+Application 2:
+
+    i.   GameLogic
+        a.  Variables
+                int targetNumber = holds the randomly generated number.
+        b.  Methods
+                generateRandomNumber() - generates a random number as the target number.
+                checkGuess() - compares the userInput to the target number and returns a string message depending on their relationship.
+                isCorrectGuess() - tells whether the guess was correct.
+        c.  Outlined Methods
+
+
+    ii.  UserInterface
+        a.  Variables
+                String userInput = holds the value of the userInput
+                GameLogic gameLogic = holds a refernece to the instance of the GameLogic object.
+                InputHelper inputHelper = holds a reference to the instance of the InputHelper object.
+        b.  Methods
+                getGuess() - prompts the user for a guess.
+                diplayMessage(String message) - displays a given message.
+                playGame() - initiates the game
+        c.  Outlined Methods
+
+Application 3:
+
+    i.   QuoteLoader
+        a.  Variables
+                Object[] colorQuotes
+                String filePath
+        b.  Methods
+                loadQuotes(filePath) - loads the file from filePath and stores them in the colorQuotes Object[]
+                getQuote(String color) - 
+                hasColor(String color) -
+        c.  Outlined Methods
+
+    ii.  UserInterface
+        a.  Variables
+                InputHelper inputHelper = holds a reference to the instance of the InputHelper object.
+                QuoteLoader quoteLoader = holds a reference to the instance of the QuoteLoader object.
+        b.  Methods
+                getColorInput()
+                displayMessage()
+                playQuoteGame()
+        c.  Outlined Methods

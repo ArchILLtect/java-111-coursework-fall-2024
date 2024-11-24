@@ -1,0 +1,30 @@
+
+Application 1:
+
+    i.   Calculator
+        Knows = A Calculator object will know the calculated values.
+        Does = A Calculator object will handle calculations (+, -, *, /) of the input numbers and return the result.
+    ii.  UserInput
+        Knows = A UserInput object will know how the user input numbers, and the instructions and results messages.
+        Does = A UserInput object will ask the user for input, display the results, and finish when 0 is entered.
+
+Application 2:
+
+    i.   GameLogic
+        Knows = A GameLogic object will know a random number and feedback messages.
+        Does = A GameLogic object will generate a random number, and compare the input to it.
+    ii.  UserInterface
+        Knows = A UserInterface object will know the user input numbers.
+        Does = A UserInterface object will keep prompting the user for number guesses, display messages based on the relation of the
+            input to the random number, and display a goodbye message on number match.
+
+Application 3:
+
+    i.   QuoteLoader
+        Knows = A QuoteLoader object will know a list of colors and their corresponding quotes. I will also know the file location. 
+        Does = A QuoteLoader object will load the colors/quotes, check for a matching color and retrieve it's quote. If there is no
+            match it will tell the user and prompt for another color.
+    ii.  UserInterface
+        Knows = A UserInterface object will know how to prompt the user for input, display messages to the user, and handle i/o interations.
+        Does = A UserInterface object will ask the user for a color, display the corresponding color, and will ask for a new color and
+            promt again in color is not found.

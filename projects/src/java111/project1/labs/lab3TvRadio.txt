@@ -1,0 +1,14 @@
+
+LAB 3 - DESIGNING CLASSES
+
+TV:
+- Vars: brand, model, screenSize, resolution, volumeLevel, currentChannel, isOn, currentInputSource
+- Methods: turnOn(), turnOff(), increaseVolume(), decreaseVolume(), changeChannel(channelNumber), changeInput(), nextStation(), previousStation()
+
+Radio (Head unit in a car):
+- Vars: brand, model, currentInputSource, currentStation, currentTrack, volumeLevel, isOn
+- Methods: turnOn(), turnOff(), increaseVolume(), decreaseVolume(), changeStation(frequency), changeInput(), nextTrack(), previousTrack()
+
+Superclass = MediaDevice:
+- Vars: brand, model, currentInputSource, volumeLevel, isOn
+- Methods: turnOn(), turnOff(), increaseVolume(), decreaseVolume(), changeInput()
