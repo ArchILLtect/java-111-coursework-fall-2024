@@ -3,7 +3,7 @@
  * @author Nick Hanson Sr.
  */
 
-public class Airplane extends Vehicle implements Maintainable {
+public class Airplane extends Vehicle {
 
     private int numberOfEngines;
 
