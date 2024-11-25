@@ -45,15 +45,15 @@ public class MiddleSchooler extends GeneralStudent {
     public void takeTest() {
         int testScore = (int) (Math.random() * 41) + 60;
         if (testScore > 89 ) {
-            testGrade = "A";
+            testGrade = "n A";
         } else if (testScore > 79 ) {
-            testGrade = "B";
+            testGrade = " B";
         } else if (testScore > 69 ) {
-            testGrade = "C";
+            testGrade = " C";
         } else if (testScore > 59 ) {
-            testGrade = "D";
+            testGrade = " D";
         } else {
-            testGrade = "F";
+            testGrade = " F";
         }
 
     };
@@ -66,7 +66,7 @@ public class MiddleSchooler extends GeneralStudent {
     public String getTestResults() {
         String[] splitName = this.getStudentName().split(" ");
         String firstName = splitName[0];
-        return firstName + " scored an " + testGrade + " on the test.";
+        return firstName + " scored a" + testGrade + " on the test.";
     };
 
 }

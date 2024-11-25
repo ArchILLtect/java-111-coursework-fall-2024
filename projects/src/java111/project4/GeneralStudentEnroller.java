@@ -41,8 +41,7 @@ public class GeneralStudentEnroller {
             studentIDString = input.getUserInput(
                     "Please enter the student's ID: ");
             studentID = Integer.parseInt(studentIDString);
-            System.out.println(studentType);
-            if (studentType.equals("e")) {
+            if (studentType.equals("e") || studentType.equals("E")) {
                 favoriteClass = input.getUserInput(
                         "Please enter the student's favorite class: ");
                 newElemStudent = new ElementaryStudent();
@@ -51,7 +50,7 @@ public class GeneralStudentEnroller {
                 newElemStudent.setFavoriteClass(favoriteClass);
                 newElemStudent.takeTest();
                 students.add(newElemStudent);
-            } else if (studentType.equals("m")) {
+            } else if (studentType.equals("m") || studentType.equals("M")) {
                 lockerNumber = input.getUserInput(
                         "Please enter the student's locker number: ");
                 newMiddleSchooler = new MiddleSchooler();
@@ -60,7 +59,7 @@ public class GeneralStudentEnroller {
                 newMiddleSchooler.setStudentLockerNumber(lockerNumber);
                 newMiddleSchooler.takeTest();
                 students.add(newMiddleSchooler);
-            } else if (studentType.equals("h")) {
+            } else if (studentType.equals("h") || studentType.equals("H")) {
                 graduationPlans = input.getUserInput(
                         "Please enter the student's after-graduation plans: ");
                 newHighSchooler = new HighSchooler();
@@ -70,11 +69,11 @@ public class GeneralStudentEnroller {
                 newHighSchooler.takeTest();
                 students.add(newHighSchooler);
             } else {
-                System.out.println("ERROR");
+                System.out.println("ERROR - Please select a valid option");
             }
             moreStudents = input.getUserInput(
                     "Would you like to add another student?");
-            if (!moreStudents.equals("y")) {
+            if (!moreStudents.equals("y") && !moreStudents.equals("Y")) {
                 break;
             }
         }
