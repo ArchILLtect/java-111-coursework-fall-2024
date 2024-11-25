@@ -1,6 +1,0 @@
-Superclass:
-    Student - abstract class
-
-Subclasses:
-    Kindergartener
-

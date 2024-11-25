@@ -1,10 +1,11 @@
 /**
- *   This super class holds information about a generic Student
- *
- *   @author Nick Hanson
+ *  This superclass holds information about a generic Student
+ *  For Projet 4 - Part 2
+ *  @author Nick Hanson
+ *      - Created 11/24/24
  */
 
- public abstract class GeneralStudent {
+ public abstract class GeneralStudent implements TestTaker {
  
     private String studentName;
     private int studentID;

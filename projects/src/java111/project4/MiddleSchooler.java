@@ -1,11 +1,11 @@
 /**
- *   This sub class holds information about an MiddleSchool Student
- *
- *   @author Nick Hanson
- *     - Created 11/22/24
+ *  This subclass (of GeneralStudent) holds information about a middle school student
+ *  For Projet 4 - Part 2
+ *  @author Nick Hanson
+ *      - Created 11/24/24
  */
 
-public class MiddleSchooler extends GeneralStudent implements TestTaker {
+public class MiddleSchooler extends GeneralStudent {
 
     private String studentLockerNumber;
     private String testGrade;

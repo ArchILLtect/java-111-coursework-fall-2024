@@ -1,11 +1,11 @@
 /**
- *   This sub class holds information about an Elementary Student
- *
- *   @author Nick Hanson
- *     - Created 11/22/24
+ *  This subclass (of GeneralStudent) holds information about an elementary student
+ *  For Projet 4 - Part 2
+ *  @author Nick Hanson
+ *      - Created 11/24/24
  */
 
-public class ElementaryStudent extends GeneralStudent implements TestTaker {
+public class ElementaryStudent extends GeneralStudent {
 
     private String favoriteClass;
     private String testGrade;

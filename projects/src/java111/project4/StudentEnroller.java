@@ -2,9 +2,9 @@ import java.util.ArrayList;
 /**
  *  This is the StudentEnroller class which holds Student 
  *  objects and displays their information
- *  
- * @author    Nick Hanson
- *     - Created 11/24/24
+ *  For Projet 4 - Part 1
+ *  @author Nick Hanson
+ *      - Created 11/24/24
  */
 
 

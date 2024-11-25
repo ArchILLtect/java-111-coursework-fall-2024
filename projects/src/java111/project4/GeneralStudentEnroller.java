@@ -1,8 +1,15 @@
 import java.util.ArrayList;
+/**
+ *  This is the GeneralStudentEnroller class which holds student 
+ *  objects and displays their information
+ *  For Projet 4 - Part 2
+ *  @author Nick Hanson
+ *      - Created 11/24/24
+ */
 
 public class GeneralStudentEnroller {
     
-    private  InputHelper        input;
+    private  InputHelper                input;
     private  ArrayList<GeneralStudent>  students;
 
     /**
@@ -10,8 +17,8 @@ public class GeneralStudentEnroller {
      */
     public void studentEnroll() {
 
-        students = new ArrayList<GeneralStudent>();
-        input = new InputHelper();
+        students    = new ArrayList<GeneralStudent>();
+        input       = new InputHelper();
 
         String              studentType         = "";
         String              studentIDString     = "";
@@ -73,6 +80,9 @@ public class GeneralStudentEnroller {
         }
     }
 
+    /**
+     *  This method calls the strudentReport() method for each student
+     */
     public void displayReports() {
         for (GeneralStudent student : students) {
             student.studentReport();

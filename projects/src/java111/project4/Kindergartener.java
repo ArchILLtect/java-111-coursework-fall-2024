@@ -1,7 +1,8 @@
 /**
- *   This Student sub class holds information about a Kindergartener
- *
- *   @author Nick Hanson
+ *  The Kindergartener subclass (of Student) holds information about a Kindergartener
+ *  For Projet 4 - Part 1
+ *  @author Nick Hanson
+ *      - Created 11/24/24
  */
 public class Kindergartener extends Student {
     

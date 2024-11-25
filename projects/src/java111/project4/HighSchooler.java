@@ -1,11 +1,11 @@
 /**
- *   This sub class holds information about a Highschool Student
- *
- *   @author Nick Hanson
- *     - Created 11/22/24
+ *  This subclass (of GeneralStudent) holds information about a high school student
+ *  For Projet 4 - Part 2
+ *  @author Nick Hanson
+ *      - Created 11/24/24
  */
 
-public class HighSchooler extends GeneralStudent implements TestTaker  {
+public class HighSchooler extends GeneralStudent {
 
     private String afterGradPlans;
     private String testGrade;

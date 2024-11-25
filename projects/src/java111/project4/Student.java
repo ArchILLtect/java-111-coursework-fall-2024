@@ -1,7 +1,8 @@
 /**
- *   This superclass holds information about a generic Student
- *
- *   @author Nick Hanson
+ *  This superclass holds information about a generic Student
+ *  For Projet 4 - Part 1
+ *  @author Nick Hanson
+ *      - Created 11/24/24
  */
 
 public class Student {
