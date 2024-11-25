@@ -1,7 +1,7 @@
 /**
- * This is a class (Animal) for lab 5 of Unit 4)
+ * This is a class (Animal) for lab 5 of Unit 4.
  * @author Nick Hanson Sr.
- *  - Created on: November 15, 2024
+ *  - Created on: November 20, 2024
  */
 
  public abstract class Animal {

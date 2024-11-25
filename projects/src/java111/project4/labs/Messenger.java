@@ -1,7 +1,7 @@
 /**
- * This is a class (Messenger) for lab 2 of Unit 4
+ * This is a class (Messenger) - (lab 2 of Unit 4)
  * @author Nick Hanson Sr.
- *  - Created on: November 12, 2024
+ *  - Created on: November 20, 2024
  */
 
 public class Messenger {

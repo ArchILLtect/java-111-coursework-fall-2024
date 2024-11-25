@@ -1,7 +1,7 @@
 /**
- * This class is used to display the fruit classes as super classes only
+ * This class is used to display the fruit classes as super classes only (Lab 4 Unit 4)
  * @author Nick Hanson Sr.
- *  - Created on: November 12, 2024
+ *  - Created on: November 20, 2024
  */
 
 public class FruityTestDrive {
@@ -21,6 +21,7 @@ public class FruityTestDrive {
         System.out.println();
         System.out.println("Here are my fruit classes:");
 
+        // Call the display method on each new citrus object
         citrus.display();
         grapefruit.display();
         rubyRed.display();

@@ -1,7 +1,7 @@
 /**
- * This is a class (Citrus) for lab 3 of Unit 4
+ * This is the superclass Citrus - (for lab 3 of Unit 4)
  * @author Nick Hanson Sr.
- *  - Created on: November 12, 2024
+ *  - Created on: November 20, 2024
  */
 
 public class Citrus {

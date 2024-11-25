@@ -1,12 +1,13 @@
 /**
- * Demonstrates creating instances of subclasses of Footwear
+ * Demonstrates creating instances of subclasses of Footwear (Lab 1 of Unit 4)
  * @author Nick Hanson Sr.
+ *  - Created on: November 20, 2024
  */
 
 public class FootwearTestDrive {
     /**
-     * Create a Boot and call
-     * the display method on it.
+     * Create some footear, set their params and call
+     * the display method on them.
      */
     public static void main(String[] args) {
         // Instantiate 2 Shoe instances

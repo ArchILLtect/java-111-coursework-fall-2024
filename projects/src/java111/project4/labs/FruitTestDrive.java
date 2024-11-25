@@ -1,7 +1,7 @@
 /**
- * This class is used to display the fruit classes
+ * This class is used to display the citrus classes - (for lab 3 of Unit 4)
  * @author Nick Hanson Sr.
- *  - Created on: November 12, 2024
+ *  - Created on: November 20, 2024
  */
 
 public class FruitTestDrive {
@@ -21,6 +21,7 @@ public class FruitTestDrive {
         System.out.println();
         System.out.println("Here are my citrus classes:");
 
+        // Class display() on all new citrus objects
         citrus.display();
         grapefruit.display();
         rubyRed.display();

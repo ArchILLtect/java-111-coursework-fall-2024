@@ -1,6 +1,7 @@
 /**
- * Boot class represents a boot in the Footwear System
+ * Boot class represents a boot in the Footwear System (Lab 1 of Unit 4)
  * @author Nick Hanson Sr.
+ *  - Created on: November 20, 2024
  */
 
 public class Boot extends Footwear {

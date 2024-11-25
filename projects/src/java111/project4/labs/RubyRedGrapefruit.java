@@ -1,7 +1,7 @@
 /**
  * This is a class (RubyRedGrapefruit) for lab 3 of Unit 4
  * @author Nick Hanson Sr.
- *  - Created on: November 12, 2024
+ *  - Created on: November 20, 2024
  */
 
 public class RubyRedGrapefruit extends Grapefruit {
@@ -13,6 +13,9 @@ public class RubyRedGrapefruit extends Grapefruit {
         System.out.println("RubyRedGrapefruit");
     }
 
+    /** 
+     * This method eats the ruby red grapefruit
+     */
     public void eat() {
         System.out.println("You bite into the Ruby Red Grapefruit. Tastes sour!");
     }

@@ -1,10 +1,8 @@
 /**
- * This class is used to launch the Messenger class
+ * This class is used to launch the Messenger class - (lab 2 of Unit 4)
  * @author Nick Hanson Sr.
- *  - Created on: November 12, 2024
+ *  - Created on: November 30, 2024
  */
-
-
 
 public class MessengerTestDrive {
     /**

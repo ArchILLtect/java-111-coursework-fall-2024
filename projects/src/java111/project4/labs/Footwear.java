@@ -1,6 +1,7 @@
 /**
- * Footwear superclass
+ * Footwear superclass (Lab 1 of Unit 4)
  * @author Nick Hanson Sr.
+ *  - Created on: November 20, 2024
  */
 
 public class Footwear {

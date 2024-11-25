@@ -1,8 +1,7 @@
 /**
- * The maintainable interface for any itme that needs to
- * maintained
+ * The event interface for any events (Lab 7 of Unit 4)
  * @author Nick Hanson Sr.
- *  - Created on: November 18, 2024
+ *  - Created on: November 22, 2024
  */
 
 public interface Event {
