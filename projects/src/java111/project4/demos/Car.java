@@ -31,4 +31,12 @@ public class Car extends Vehicle {
                 " It has " + numberOfCylinders + " cylinders.";
     }
 
+    /** Determines the cost of maintainance
+     * @return maintenance cost
+     */
+    @Override  
+    public double determineMaintenanceCost() {
+        return 250.0 * numberOfCylinders;
+    }
+
 }

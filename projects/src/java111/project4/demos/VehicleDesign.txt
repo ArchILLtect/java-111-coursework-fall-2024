@@ -2,7 +2,10 @@ Superclass:
 Vehicle
 
 Subclasses:
-Car*
+Car isA Vehicle => subclass* => start(), has-a: numberOfCyliders, get/set
 Truck
-Airplane*
+Airplane - subclass* => start(), has-a: numberOfEngines, get/set
 Bus
+
+insterface - maintainable
+    determineMaintainanceCost(); 

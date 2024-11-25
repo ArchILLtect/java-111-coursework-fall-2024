@@ -3,7 +3,7 @@
  * @author Nick Hanson Sr.
  */
 
-public class Airplane extends Vehicle {
+public class Airplane extends Vehicle implements Maintainable {
 
     private int numberOfEngines;
 
@@ -29,4 +29,13 @@ public class Airplane extends Vehicle {
         return "The " + getColor() + " " + getYear() + " " + getMake() + " " + getModel() +
               " is starting. It has " + numberOfEngines + " engines.";
     }
+
+    /** Determines the cost of maintainance
+     * @return maintenance cost
+     */
+    @Override  
+    public double determineMaintenanceCost() {
+        return 500.0 * numberOfEngines;
+    }
+
 }
