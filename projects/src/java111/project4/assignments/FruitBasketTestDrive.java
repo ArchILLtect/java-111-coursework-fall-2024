@@ -1,13 +1,12 @@
 /**
  * Instantiates and run CitrusBlender (for Assignment 1 of Unit 4)
  * @author Nick Hanson Sr.
- *  - Created on: November 17, 2024
+ *  - Created on: November 22, 2024
  */
 
 public class FruitBasketTestDrive {
-    /**
-     *  The main program for the FruitBasketTestDrive (Assigment 1) class. It instatiates a
-     * CitrusBasket object and runs the class's methods on it.
+    /** The main program for the FruitBasketTestDrive (Assigment 1) class. It instatiates a
+     *  CitrusBasket object and runs the class's methods on it.
      *
      * @param  args  The command line arguments
      */

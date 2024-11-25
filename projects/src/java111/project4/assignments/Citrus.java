@@ -1,7 +1,7 @@
 /**
  * This is a class (Citrus) for lab 3 of Unit 4
  * @author Nick Hanson Sr.
- *  - Created on: November 17, 2024
+ *  - Created on: November 22, 2024
  */
 
 public class Citrus {
