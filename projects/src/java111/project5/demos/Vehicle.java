@@ -12,6 +12,25 @@ package java111.project5.demos;
     private int year;
     private String color;
 
+    public Vehicle() {
+        System.out.println("In the vehicle no arg/default constructor.");
+    };
+
+    /** creates a vehicle with number of cylinders
+     * @param make vehicle's make
+     * @param model vehicle's model
+     * @param year vehicle's year
+     * @param color vehicle's color
+     */
+    public Vehicle(String make, String model, int year, String color) {
+        this();
+        System.out.println("In the vehicle constructor, setting all values.");
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+    };
+
     /** Sets the vehicle's make
      * @param newMake vehicle's make
      */

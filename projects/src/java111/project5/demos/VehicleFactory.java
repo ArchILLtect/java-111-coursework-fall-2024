@@ -23,16 +23,12 @@ import java.util.*;
          //create a vehicle and assign to the first slot in the array
          //listOfVehicles.add(new Vehicle());
 
-         Vehicle vehicle1 = new Car();
-         vehicle1.setMake("Chevy");
-         vehicle1.setMake("Blazer");
-         vehicle1.setYear(2003);
-         vehicle1.setColor("grey");
+         Vehicle vehicle1 = new Car("Chevy", "Blazer", 2003, "grey", 6);
          listOfVehicles.add(vehicle1);
 
-         Vehicle vehicle2 = new Car();
+         Vehicle vehicle2 = new Car(8);
          vehicle2.setMake("Toyota");
-         vehicle2.setMake("4 Runner");
+         vehicle2.setModel("4 Runner");
          vehicle2.setYear(2012);
          vehicle2.setColor("black");
          listOfVehicles.add(vehicle2);
