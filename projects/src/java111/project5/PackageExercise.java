@@ -8,7 +8,8 @@ package java111.project5;
 public class PackageExercise {
 
     /**
-     *  The main program for the PackageExercise class
+     *  The main program for the PackageExercise class that simply
+     * outputs a message to the terminal
      *
      *@param  args  The command line arguments
      */
