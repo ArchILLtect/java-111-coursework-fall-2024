@@ -15,33 +15,36 @@ import java.util.*;
 
      /** creates vehicles and puts them in a listOfVehicles **/
      public void createVehicles() {
-         System.out.println("in the create Vehicles");
-         // instantiate an array that will hold Vehicle obj refs.
+        System.out.println("in the create Vehicles");
+        // instantiate an array that will hold Vehicle obj refs.
         // listOfVehicles = new Vehicle[3];
-         listOfVehicles = new ArrayList<Vehicle>();
+        listOfVehicles = new ArrayList<Vehicle>();
+        int numberOfCylinders = (int)(Math.PI * 10);
+        //create a vehicle and assign to the first slot in the array
+        //listOfVehicles.add(new Vehicle());
+    
+        Vehicle vehicle1 = new Car("Chevy", "Blazer", 2003, "grey", numberOfCylinders);
+        listOfVehicles.add(vehicle1);
+        System.out.println("I have " + Vehicle.numberOfVehicles + " vehicle(s).");
 
-         //create a vehicle and assign to the first slot in the array
-         //listOfVehicles.add(new Vehicle());
+        Vehicle vehicle2 = new Car(8);
+        vehicle2.setMake("Toyota");
+        vehicle2.setModel("4 Runner");
+        vehicle2.setYear(2012);
+        vehicle2.setColor("black");
+        listOfVehicles.add(vehicle2);
+        System.out.println("I now have " + Vehicle.numberOfVehicles + " vehicle(s).");
+        // System.out.println("From vehicle1: I have " + vehicle1.numberOfVehicles + " vehicle(s).");
 
-         Vehicle vehicle1 = new Car("Chevy", "Blazer", 2003, "grey", 6);
-         listOfVehicles.add(vehicle1);
-
-         Vehicle vehicle2 = new Car(8);
-         vehicle2.setMake("Toyota");
-         vehicle2.setModel("4 Runner");
-         vehicle2.setYear(2012);
-         vehicle2.setColor("black");
-         listOfVehicles.add(vehicle2);
-
-         //use set methods to assign values...
-         // set some details on the first vehicle object
+        // use set methods to assign values...
+        // set some details on the first vehicle object
 
 
-         System.out.println("at the end of the create Vehicles()");
+        System.out.println("at the end of the create Vehicles()");
 
-         for (Maintainable item : listOfVehicles) {
-             System.out.println("The cost of maintenance is $" + item.determineMaintenanceCost());
-         }
+        for (Maintainable item : listOfVehicles) {
+            System.out.println("The cost of maintenance is $" + item.determineMaintenanceCost());
+        }
 
      }
      /** start each vehicle in the list **/

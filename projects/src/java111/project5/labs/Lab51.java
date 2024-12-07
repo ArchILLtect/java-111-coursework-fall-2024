@@ -25,8 +25,8 @@ public class Lab51 {
         System.out.println("[java111.project5.labs.Lab51 > run( )] "
                  + customDate);
         // Original deprecated
-        System.out.println("[java111.project5.labs.Lab51 > run( )] "
-                 + (new Date()).toLocaleString());
+        // System.out.println("[java111.project5.labs.Lab51 > run( )] "
+        //       + (new Date()).toLocaleString());
 
     }
 }

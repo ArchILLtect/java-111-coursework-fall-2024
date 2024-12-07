@@ -11,8 +11,10 @@ package java111.project5.demos;
     private String model;
     private int year;
     private String color;
+    static int numberOfVehicles;
 
     public Vehicle() {
+        numberOfVehicles++;
         System.out.println("In the vehicle no arg/default constructor.");
     };
 
