@@ -13,14 +13,13 @@ public class SelectPizza {
      * Prompts the user to select a pizza size and creates a
      * {@code PizzaChoice} object based on user's selection.
      * <p>This class is part of Project 5 - Part 1</p>
-     * <p>Valid options are:
+     * <p>Valid options are:</p>
      *   <ul>
      *     <li>1 - Small</li>
      *     <li>2 - Medium</li>
      *     <li>3 - Large</li>
      *     <li>4 - XLarge</li>
      *   </ul>
-     * </p>
      * @throws Exception if an error occurs during input or processing
      */
     public void processSelection() throws Exception {
